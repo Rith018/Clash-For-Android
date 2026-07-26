@@ -30,207 +30,60 @@ dns:
     
 proxies:
   
-  - name: 🇸🇬1V2-Metfone × TIKTOK
-    server: 104.16.125.32
+  - name: 🇸🇬 Metfone ~ 097 Free
+    server: 172.64.151.167
     port: 443
-    type: vmess
-    uuid: 1c5ffdc0-b1d6-11ef-b330-205c6d5f5d78
+    type: vless
+    uuid: 19c6e55f-4ac6-4290-93f5-ebd898538725
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-1.hihu.net
+    servername: sg.ezecom.ggff.net
     network: ws
     ws-opts:
       path: /BoyZin018
       headers:
-        Host: sg-1.hihu.net
-    udp: true
-
-  - name: 🇸🇬2V2-Metfone × TIKTOK
-    server: 104.16.125.32
-    port: 443
-    type: vmess
-    uuid: 9bde3178-1935-41a7-9211-88ab937f1576
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2-sg-1.v2s.top
-    network: ws
-    ws-opts:
-      path: /anything/freevpn.us-Sigjov/vmess
-      headers:
-        Host: v2-sg-1.v2s.top
-    udp: true
-
-  - name: 🇸🇬3V2-Metfone × TIKTOK
-    server: 104.16.125.32
-    port: 443
-    type: vmess
-    uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2-sg-1.v2s.top
-    network: ws
-    ws-opts:
-      path: /anything/freevpn.us-Sigjov/vmess
-      headers:
-        Host: v2-sg-1.v2s.top
-    udp: true
-
-  - name: 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
-    server: 104.16.125.32
-    port: 2095
-    type: vmess
-    uuid: 3332616c-5d1a-4b1b-840c-c5f8ae8ae2c0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: premium.angkorssh.shop
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: premium.angkorssh.shop
-    udp: true
-
-  - name: 🇭🇰1TJ-Metfone × TIKTOK
-    type: trojan
-    server: 104.16.125.32
-    port: 443
-    password: 9bde3178-1935-41a7-9211-88ab937f1576
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /BoyZin018
-    sni: hk1.safecdn.site
-    alpn:
-
-  - name: 🇭🇰2TJ-Metfone × TIKTOK
-    type: trojan
-    server: 104.16.125.32
-    port: 443
-    password: 37503025-e3ad-48fe-ad49-4a122bd581f3
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /BoyZin018
-    sni: hk1.safecdn.site
-    alpn:
-
-  - name: 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
-    type: trojan
-    server: 104.16.125.32
-    port: 443
-    password: 5e2bb4d7-616d-4467-baec-d1ac3287fe15
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /BoyZin018
-    sni: us1.trojanvpn.xyz
-    alpn:
-
-  - name: 🇺🇸🇬🇧4TJ-Metfone × TIKTOK
-    type: trojan
-    server: 104.16.125.32
-    port: 443
-    password: 814a09e2-badc-440c-b317-0177d2a5b670
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /BoyZin018
-    sni: uk1.trojanvpn.xyz
-    alpn:
-
-  - name: ❌1SS-Metfone × TIKTOK
-    type: ss
-    server: sg-ss.sshmax.xyz
-    port: 8139
-    cipher: chacha20-ietf-poly1305
-    password: ZGE5MjEz
-    plugin: obfs
-    plugin-opts:
-       mode: http
-       host: m.mobilelegends.com
-
-  - name: 🇰🇭V2-FREE FIRE
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: a8e5782e-ad4a-11ef-827a-538d5416b975
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.freefiremobile.com
+        Host: sg.ezecom.ggff.net
     udp: true
 
 proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
-      - 🎮Metfone × TIKTOK
-      - 🎮FREE FIRE
-  - name: 🎮Metfone × TIKTOK
+      - ❤️‍🔥 Metfone × Free
+      - ❤️‍🔥 Cellcard × Free
+  - name: ❤️‍🔥 Metfone × Free
     type: select
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇸🇬3V2-Metfone × TIKTOK
-      - 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
-      - 🇭🇰1TJ-Metfone × TIKTOK
-      - 🇭🇰2TJ-Metfone × TIKTOK
-      - 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
-      - 🇺🇸🇬🇧4TJ-Metfone × TIKTOK
-      - ❌1SS-Metfone × TIKTOK
-  - name: 🎮FREE FIRE
+      - 🇸🇬 Metfone ~ 097 Free
+  - name: ❤️‍🔥 Cellcard × Free
     type: select
     proxies:
-      - 🇰🇭V2-FREE FIRE
+      -
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇭🇰1TJ-Metfone × TIKTOK
-      - 🇰🇭V2-FREE FIRE
+      - 🇸🇬 Metfone ~ 097 Free
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇭🇰1TJ-Metfone × TIKTOK
-      - 🇰🇭V2-FREE FIRE
+      - 🇸🇬 Metfone ~ 097 Free
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇭🇰1TJ-Metfone × TIKTOK
-      - 🇰🇭V2-FREE FIRE
+      - 🇸🇬 Metfone ~ 097 Free
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇭🇰1TJ-Metfone × TIKTOK
-      - 🇰🇭V2-FREE FIRE
+      - 🇸🇬 Metfone ~ 097 Free
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
