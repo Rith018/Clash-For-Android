@@ -52,14 +52,10 @@ proxy-groups:
     type: select
     proxies:
       - ❤️‍🔥 Metfone × Free
-      - ❤️‍🔥 Cellcard × Free
   - name: ❤️‍🔥 Metfone × Free
     type: select
     proxies:
       - 🇸🇬 Metfone ~ 097 Free
-  - name: ❤️‍🔥 Cellcard × Free
-    type: select
-    proxies:
   - name: PROXY 🚀
     type: select
     proxies:
