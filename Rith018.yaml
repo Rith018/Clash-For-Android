@@ -42,7 +42,7 @@ proxies:
     servername: sg.ezecom.ggff.net
     network: ws
     ws-opts:
-      path: /BoyZin018
+      path: /
       headers:
         Host: sg.ezecom.ggff.net
     udp: true
