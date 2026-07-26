@@ -60,7 +60,6 @@ proxy-groups:
   - name: ❤️‍🔥 Cellcard × Free
     type: select
     proxies:
-      -
   - name: PROXY 🚀
     type: select
     proxies:
