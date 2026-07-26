@@ -33,12 +33,13 @@ proxies:
   - name: 🇸🇬 Metfone ~ 097 Free
     server: 172.64.151.167
     port: 80
-    type: vless
+    type: vmess
     uuid: 19c6e55f-4ac6-4290-93f5-ebd898538725
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: sg.ezecom.ggff.net
     network: ws
     ws-opts:
       path: /BoyZin018
